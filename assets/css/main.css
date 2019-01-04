@@ -14517,7 +14517,6 @@ button:focus {
   width: 0;
   height: 0;
   content: "";
-  background-image: url(../img/masks/avatar-status.svg), url(../img/masks/avatar-group.svg), url(../img/masks/avatar-group-hover.svg), url(../img/masks/avatar-group-hover-last.svg)
 }
 
 .avatar-img {
@@ -14649,29 +14648,11 @@ button:focus {
   margin-left: -2rem
 }
 
-.avatar-group .avatar:not(:last-child) {
-  -webkit-mask-image: url(../img/masks/avatar-group.svg);
-  mask-image: url(../img/masks/avatar-group.svg);
-  -webkit-mask-size: 100% 100%;
-  mask-size: 100% 100%
-}
 
 .avatar-group .avatar:hover {
   z-index: 1;
   -webkit-mask-image: none;
   mask-image: none
-}
-
-.avatar-group .avatar:hover+.avatar {
-  -webkit-mask-image: url(../img/masks/avatar-group-hover.svg);
-  mask-image: url(../img/masks/avatar-group-hover.svg);
-  -webkit-mask-size: 100% 100%;
-  mask-size: 100% 100%
-}
-
-.avatar-group .avatar:hover+.avatar:last-child {
-  -webkit-mask-image: url(../img/masks/avatar-group-hover-last.svg);
-  mask-image: url(../img/masks/avatar-group-hover-last.svg)
 }
 
 .chart {
