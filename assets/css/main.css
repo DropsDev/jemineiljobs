@@ -14160,10 +14160,8 @@ body {
 }
 
 .table thead th {
-  font-weight: 600;
   letter-spacing: .08em;
   text-transform: uppercase;
-  color: #95aac9;
   border-bottom-width: 1px;
   background-color: #f9fbfd
 }
@@ -15333,7 +15331,7 @@ button:focus {
   color: #2c7be5
 }
 
-.ql-toolbar button svg {
+.ql-toolbar  svg {
   width: 1.0625rem;
   height: 1.0625rem
 }
